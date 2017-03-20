@@ -1,0 +1,207 @@
+move	r0, r200
+move	r100,	r200
+move	r1,	r100
+puti	r2,	1
+puti	r3,	'S'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'u'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'c'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'c'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'e'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	's'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	's'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	0x0
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r2,	8
+add	r101,	r200,	r2
+move	r1,	r101
+puti	r2,	1
+puti	r3,	'F'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'a'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'i'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'l'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'u'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'r'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'e'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	0x0
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r2,	20
+add	r102,	r200,	r2
+move	r1,	r102
+puti	r2,	1
+puti	r3,	'U'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	's'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'e'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'r'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	':'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'_'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	0x0
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r2,	28
+add	r103,	r200,	r2
+move	r1,	r103
+puti	r2,	1
+puti	r3,	'P'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'a'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	's'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	's'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'w'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'o'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'r'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'd'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	':'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'_'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	0x0
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r2,	40
+add	r104,	r200,	r2
+move	r1,	r104
+puti	r2,	1
+puti	r3,	'u'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	's'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'e'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'r'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	0x0
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r2,	48
+add	r105,	r200,	r2
+move	r1,	r105
+puti	r2,	1
+puti	r3,	'p'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'a'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	's'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	's'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'w'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'o'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'r'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	'd'
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r3,	0x0
+store	r1,	r3
+add	r1,	r1,	r2
+puti	r2,	60
+add	r98,	r200,	r2
+puti	r2,	80
+add	r99,	r200,	r2
+puts	r102
+gets	r99
+move	r231,	r104
+move	r232,	r99
+puti	r220,	1
+jump	191
+ite	r0,	180,	182
+puts	r101
+halt
+puts	r103
+gets	r98
+move	r231,	r105
+move	r232,	r98
+puti	r220,	0
+jump	191
+ite	r0,	180,	189
+puts	r100
+halt
+puti	r7,	0
+puti	r8,	1
+puti	r9,	0
+add	r21,	r231,	r9
+add	r22,	r232,	r9
+load	r11,	r21
+load	r12,	r22
+eq	r1,	r11,	r12
+ite	r1,	200,	206
+eq	r1,	r11,	r7
+ite	r1,	204,	202
+add	r9,	r9,	r8
+jump	194
+puti	r0,	0
+ite	r220,	179,	188
+puti	r0,	1
+ite	r220,	179,	188
