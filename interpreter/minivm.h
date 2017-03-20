@@ -40,6 +40,15 @@ typedef struct VMContext {
     FunPtr* funtable; // Ptr to a funptr table.
 } VMContext;
 
+// Actually, flags does not required. Just register is meanful.
+#define		CODESTART	0x00	// r199
+#define		MEMSTART	0x01	// r200
+#define		DATA		0x02
+#define		INSTRPTR	0x03	// r210
+#define		RETURNADDR	0x04	// r220 , posA : 1 , posB : 0
+#define		STRCMPP1	0x05	// r231
+#define		STRCMPP2	0x06	// r232
+#define		STRCMPRET	0x07	// r0
 
 //---------------------------------------------------------
 // ESOTERIC ITEMS:
@@ -60,6 +69,17 @@ static FunPtr mvm_function_table[MVM_NUM_FUNS];
 //---------------------------------------------------------
 // FUNCTIONS:
 
+void vm_halt(struct VMContext* ctx, const uint32_t instr);
+void vm_load(struct VMContext* ctx, const uint32_t instr);
+void vm_gets(struct VMContext* ctx, const uint32_t instr);
+void vm_puts(struct VMContext* ctx, const uint32_t instr);
+void vm_move(struct VMContext* ctx, const uint32_t instr);
+void vm_puti(struct VMContext* ctx, const uint32_t instr);
+void vm_ite(struct VMContext* ctx, const uint32_t instr);
+void vm_eq(struct VMContext* ctx, const uint32_t instr);
+void vm_jump(struct VMContext* ctx, const uint32_t instr);
+void vm_add(struct VMContext* ctx, const uint32_t instr);
+void vm_store(struct VMContext* ctx, const uint32_t instr);
 
 // Selects and executes an opcode function from the function pointer table.
 // Passes the entire bytecode instruction as the argument.

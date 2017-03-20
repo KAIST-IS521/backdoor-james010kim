@@ -1,5 +1,5 @@
 SOURCES = minivm.h minivm.c
-CFLAGS += -Wall -Wextra
+CFLAGS += -Wall -Wextra -m32
 BUILDDIR = build
 
 all: $(BUILDDIR) $(BUILDDIR)/libminivm.a $(BUILDDIR)/interpreter
